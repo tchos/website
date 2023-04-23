@@ -1,0 +1,30 @@
+{% extends 'admin/base.html' %}
+{% load static %}
+
+{% block branding %}
+    <h1>Panel d'administration</h1>
+{% endblock %}
+
+{% block extrastyle %}
+    <style>
+        body {
+            background-color: #3b3b4c;
+        }
+        
+        #header {
+            background-color: #1e1e2d;
+        }
+
+        #branding h1 {
+            color: white;
+            font-size: 1.5rem;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+
+        #content h1 {
+            color: white;
+        }
+    </style>
+{% endblock %}
+
